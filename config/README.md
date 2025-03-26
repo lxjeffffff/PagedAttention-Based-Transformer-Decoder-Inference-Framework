@@ -4,6 +4,12 @@ This directory contains all configuration files required to initialize, run, and
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File                    | Description |

@@ -4,6 +4,12 @@ This directory provides a suite of command-line tools for testing, benchmarking,
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File                    | Description |

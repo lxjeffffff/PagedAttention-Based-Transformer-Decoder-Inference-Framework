@@ -4,6 +4,12 @@ This module implements a high-performance FlashAttention-like tile-based attenti
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File | Description |

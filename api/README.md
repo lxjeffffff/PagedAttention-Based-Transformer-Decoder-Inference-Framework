@@ -4,6 +4,12 @@ This module provides a FastAPI-based RESTful and streaming interface for transfo
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File              | Description |

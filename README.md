@@ -6,6 +6,12 @@ It supports both GPU (FlashAttention-style fused kernels) and CPU (INT8 vectoriz
 
 ---
 
+## 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ## 🚀 Core Highlights
 
 - ✅ **PagedAttention** with tile-based KV caching

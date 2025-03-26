@@ -4,6 +4,12 @@ This module provides a lightweight Flask web server for real-time and batch infe
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File              | Description |

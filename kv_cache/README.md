@@ -4,6 +4,12 @@ This module implements an efficient, tile-based KV cache system to support Paged
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File                          | Description |

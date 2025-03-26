@@ -4,6 +4,12 @@ This module implements a modular transformer decoder stack that supports both GP
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File                      | Description |

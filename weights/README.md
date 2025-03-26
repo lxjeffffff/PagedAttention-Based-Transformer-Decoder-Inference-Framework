@@ -6,6 +6,12 @@ This directory holds all pre-trained or quantized weights for the transformer de
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Structure Overview
 
 | Path                              | Description                                 |

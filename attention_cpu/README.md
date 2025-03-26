@@ -4,6 +4,12 @@ This module implements a CPU-optimized Paged Attention kernel designed for trans
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File                              | Description |

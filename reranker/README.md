@@ -6,6 +6,12 @@ The module also includes support for reranker training (`finetune.py`), data exp
 
 ---
 
+### 🖋️ Author
+Jeffrey
+🌐 GitHub: [lxjeffffff](https://github.com/lxjeffffff)
+
+---
+
 ### 📦 Contents
 
 | File                   | Description |
