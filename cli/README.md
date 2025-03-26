@@ -1,4 +1,4 @@
-`cli/` — Command-Line Toolkit for Transformer Inference & Evaluation
+# `cli/` — Command-Line Toolkit for Transformer Inference & Evaluation
 
 This directory provides a suite of command-line tools for testing, benchmarking, logging, and evaluating transformer model inference. Tools cover single and multi-turn generation, streaming outputs, beam reranking, batch decoding, and reranker training data generation.
 

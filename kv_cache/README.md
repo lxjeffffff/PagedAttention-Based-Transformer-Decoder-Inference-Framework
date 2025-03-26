@@ -1,4 +1,4 @@
-`kv_cache/` — Tile-based Key/Value Cache for Paged Attention
+# `kv_cache/` — Tile-based Key/Value Cache for Paged Attention
 
 This module implements an efficient, tile-based KV cache system to support Paged Attention for both GPU and CPU backends. It includes page table mapping, tile registration, dynamic eviction (LRU), and host-device synchronization.
 

@@ -1,4 +1,4 @@
-`web/` — Flask-Based Streaming Inference Server for LLM Decoding
+# `web/` — Flask-Based Streaming Inference Server for LLM Decoding
 
 This module provides a lightweight Flask web server for real-time and batch inference using a transformer decoder backend. It supports both CPU and GPU execution via backend routing, and includes token-by-token streaming via Server-Sent Events (SSE).
 

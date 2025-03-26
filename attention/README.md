@@ -1,4 +1,4 @@
-`attention/` — High-Performance FlashAttention Kernels for Transformer Decoders
+# `attention/` — High-Performance FlashAttention Kernels for Transformer Decoders
 
 This module implements a high-performance FlashAttention-like tile-based attention kernel optimized for modern GPU inference. It supports both **prefill** and **decode** modes, **tile-level caching**, **streaming**, and **beam search** scenarios.
 

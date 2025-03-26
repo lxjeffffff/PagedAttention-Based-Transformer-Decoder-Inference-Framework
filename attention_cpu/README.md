@@ -1,4 +1,4 @@
-`attention_cpu/` — High-Performance CPU Attention Module (float & int8)
+# `attention_cpu/` — High-Performance CPU Attention Module (float & int8)
 
 This module implements a CPU-optimized Paged Attention kernel designed for transformer decoders. It supports both `float32` and `int8` inference paths, tile-based KV caching, rotary embeddings, top-k/p sampling, and fast vectorized operations using AVX2/NEON and LUT-based softmax.
 

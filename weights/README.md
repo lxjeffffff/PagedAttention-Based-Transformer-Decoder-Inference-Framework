@@ -1,4 +1,4 @@
-`weights/` — Transformer Model Weights Directory
+# `weights/` — Transformer Model Weights Directory
 
 This directory holds all pre-trained or quantized weights for the transformer decoder model, including token embeddings and per-layer components. These weights are loaded by `CUDADecoder` and `INT8Decoder` during runtime initialization.
 

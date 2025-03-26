@@ -1,4 +1,4 @@
-`reranker/` — Path Scoring & Reranking Module for Beam Search
+# `reranker/` — Path Scoring & Reranking Module for Beam Search
 
 This module implements a candidate reranker for transformer decoding. It evaluates multiple generated outputs (typically from beam search or sampling) and selects the best candidate based on learned or heuristic scoring.
 

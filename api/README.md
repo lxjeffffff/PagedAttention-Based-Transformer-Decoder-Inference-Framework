@@ -1,4 +1,4 @@
-`api/` — REST & Streaming Inference API for Transformer Decoding
+# `api/` — REST & Streaming Inference API for Transformer Decoding
 
 This module provides a FastAPI-based RESTful and streaming interface for transformer-based language model inference. It supports single-turn and multi-turn generation, beam search reranking, and integrates with tokenizer, decoder, and reranker modules.
 

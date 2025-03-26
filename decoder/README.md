@@ -1,4 +1,4 @@
-`decoder/` — Modular Transformer Decoder for CUDA and INT8 Inference
+# `decoder/` — Modular Transformer Decoder for CUDA and INT8 Inference
 
 This module implements a modular transformer decoder stack that supports both GPU-accelerated inference via CUDA and INT8 quantized inference via CPU (oneDNN). It includes components for token embedding, layer normalization, multi-layer MLP, tiled key-value cache, and attention execution (GPU or CPU backend).
 

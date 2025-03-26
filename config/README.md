@@ -1,4 +1,4 @@
-`config/` — Centralized Configuration for Model, Runtime, and Paths
+# `config/` — Centralized Configuration for Model, Runtime, and Paths
 
 This directory contains all configuration files required to initialize, run, and manage the transformer-based LLM system across CLI, API, and Web applications. It includes model architecture, runtime behavior, weight paths, tokenizer info, and prompt templates for chat-based generation.
 

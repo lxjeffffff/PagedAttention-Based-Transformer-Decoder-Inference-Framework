@@ -1,4 +1,4 @@
-PagedAttention-Based Transformer Decoder Inference Framework
+# PagedAttention-Based Transformer Decoder Inference Framework
 
 This project is a modular, production-ready framework for running high-performance transformer decoder inference powered by **PagedAttention**.
 
