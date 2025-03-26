@@ -1,0 +1,12 @@
+model:
+  type: gpt
+  num_layers: 12
+  num_heads: 12
+  head_dim: 64
+  hidden_dim: 768
+  intermediate_dim: 3072
+  max_seq_len: 2048
+  vocab_size: 50257
+  tokenizer_name: gpt2
+  use_rotary_embedding: true
+  use_int8: false

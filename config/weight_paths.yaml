@@ -1,0 +1,21 @@
+weights:
+  embedding_path: "checkpoints/gpt2/embedding.bin"
+  decoder_blocks:
+    - "checkpoints/gpt2/layer_0/"
+    - "checkpoints/gpt2/layer_1/"
+    - "checkpoints/gpt2/layer_2/"
+    - "checkpoints/gpt2/layer_3/"
+    - "checkpoints/gpt2/layer_4/"
+    - "checkpoints/gpt2/layer_5/"
+    - "checkpoints/gpt2/layer_6/"
+    - "checkpoints/gpt2/layer_7/"
+    - "checkpoints/gpt2/layer_8/"
+    - "checkpoints/gpt2/layer_9/"
+    - "checkpoints/gpt2/layer_10/"
+    - "checkpoints/gpt2/layer_11/"
+  quantized: false
+
+kv_cache:
+  cache_dir: "cache/kv/"
+  tile_size: 32
+  eviction_strategy: lru

@@ -1,0 +1,18 @@
+{
+    "system_prompt": "You are a helpful, knowledgeable AI assistant. Answer questions clearly and concisely.",
+    "roles": {
+      "user": "User",
+      "assistant": "Assistant"
+    },
+    "default_history": [
+      {
+        "role": "assistant",
+        "content": "Hello! I'm your AI assistant. How can I help you today?"
+      }
+    ],
+    "formatting": {
+      "prefix": "",
+      "suffix": ""
+    }
+}
+  

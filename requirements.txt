@@ -1,0 +1,39 @@
+# Core Python packages
+numpy
+pyyaml
+tqdm
+requests
+
+# Tokenizer (HuggingFace)
+transformers>=4.30.0
+sentencepiece
+tokenizers
+
+# FastAPI-based API
+fastapi
+uvicorn
+
+# Flask-based Web streaming server
+flask
+
+# Reranker training and export
+datasets
+scikit-learn
+matplotlib
+networkx
+
+# SSE / Web / JSONL
+sse-starlette
+python-multipart
+
+# Pybind11 C++ binding support
+pybind11>=2.11.1
+cmake>=3.18.0
+setuptools>=61.0.0
+wheel
+
+# Optional: oneDNN wrapper (if using INT8 with DNNL)
+# pip install intel-extension-for-pytorch (if needed)
+
+# CLI logging & optional tools
+rich

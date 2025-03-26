@@ -1,0 +1,17 @@
+runtime:
+  backend: auto                 # options: cpu, gpu, auto
+  batch_size: 1
+  temperature: 1.0
+  top_k: 5
+  top_p: 1.0
+  max_new_tokens: 64
+  max_prompt_tokens: 512
+  eos_token_id: 50256
+  stream_delay_ms: 30
+  use_reranker: true
+  enable_beam_search: true
+  enable_rerank_scores: false
+  reranker_model_path: "reranker_model"
+  tokenizer_cache_size: 4096
+  log_level: info               # options: debug, info, warning, error
+  enable_logging: true
