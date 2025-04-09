@@ -118,7 +118,7 @@ void KVTileCacheCPU<T>::load(const std::string& path) {
         in.read((char*)data.data(), tile_size_ * sizeof(T));
         cache_[idx] = std::move(data);
         lru_list_.push_front(idx);
-        lru_map_[idx] = lru_list_.begin();  // 同步lru_map_
+        lru_map_[idx] = lru_list_.begin();  // sync lru_map_
     }
 }
 
