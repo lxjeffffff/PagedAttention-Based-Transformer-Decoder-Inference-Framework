@@ -2,7 +2,7 @@
 #include <cstring>
 #include <algorithm>
 
-// ---- struct TileIndex ----
+// struct TileIndex
 template <typename T>
 bool KVTileCacheCPU<T>::TileIndex::operator==(const TileIndex& other) const {
     return batch_id == other.batch_id &&
@@ -17,12 +17,12 @@ std::size_t KVTileCacheCPU<T>::TileIndexHash::operator()(const TileIndex& idx) c
            (std::hash<int>()(idx.tile_id) << 2);
 }
 
-// ---- constructor ----
+// constructor
 template <typename T>
 KVTileCacheCPU<T>::KVTileCacheCPU(int max_size, int tile_size)
     : max_size_(max_size), tile_size_(tile_size) {}
 
-// ---- put single tile ----
+// put single tile
 template <typename T>
 void KVTileCacheCPU<T>::put(int batch_id, int head_id, int tile_id, const T* data) {
     TileIndex idx{batch_id, head_id, tile_id};
@@ -43,7 +43,7 @@ void KVTileCacheCPU<T>::put(int batch_id, int head_id, int tile_id, const T* dat
     updateLRU(idx);
 }
 
-// ---- put batch of tiles ----
+// put batch of tiles
 template <typename T>
 void KVTileCacheCPU<T>::put_batch(const std::vector<TileIndex>& indices, const std::vector<T*>& data_ptrs) {
     std::unique_lock lock(mutex_);
@@ -66,7 +66,7 @@ void KVTileCacheCPU<T>::put_batch(const std::vector<TileIndex>& indices, const s
     }
 }
 
-// ---- get tile ----
+// get tile
 template <typename T>
 const T* KVTileCacheCPU<T>::get(int batch_id, int head_id, int tile_id) {
     TileIndex idx{batch_id, head_id, tile_id};
@@ -79,13 +79,13 @@ const T* KVTileCacheCPU<T>::get(int batch_id, int head_id, int tile_id) {
     return nullptr;
 }
 
-// ---- tile size ----
+// tile size
 template <typename T>
 int KVTileCacheCPU<T>::get_tile_size() const {
     return tile_size_;
 }
 
-// ---- save to file ----
+// save to file
 template <typename T>
 void KVTileCacheCPU<T>::save(const std::string& path) {
     std::unique_lock lock(mutex_);
@@ -101,7 +101,7 @@ void KVTileCacheCPU<T>::save(const std::string& path) {
     }
 }
 
-// ---- load from file ----
+// load from file
 template <typename T>
 void KVTileCacheCPU<T>::load(const std::string& path) {
     std::unique_lock lock(mutex_);
@@ -122,7 +122,7 @@ void KVTileCacheCPU<T>::load(const std::string& path) {
     }
 }
 
-// ---- update LRU list ----
+// update LRU list
 template <typename T>
 void KVTileCacheCPU<T>::updateLRU(const TileIndex& idx) {
     auto it = lru_map_.find(idx);
